@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/CEWendel/SWTableViewCell.git', :tag => '0.2.2' }
   s.source_files = 'SWTableViewCell/PodFiles/*.{h,m}'
   s.platform = :ios
-  s.ios.deployment_target = '6.1'
+  s.ios.deployment_target = '6.0'
   s.requires_arc = true
 end
